@@ -1,0 +1,17 @@
+commands/RemoveById.class
+commands/ExecuteScript.class
+commands/RemoveLower.class
+commands/Show.class
+commands/Update.class
+commands/FilterGreaterThanDescription.class
+commands/Command.class
+commands/History.class
+commands/Add.class
+commands/FilterLessThanDescription.class
+commands/Clear.class
+commands/Help.class
+commands/CommandWithArgs.class
+client/Client.class
+commands/Info.class
+commands/MaxById.class
+commands/AddIfMin.class

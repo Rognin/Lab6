@@ -184,6 +184,9 @@ public class Client {
                 System.out.println("something's wrong with the address you entered, try again");
             } catch (IOException e) {
                 System.out.println("aaand we got an IOException. Great");
+            } catch (NullPointerException e){
+                System.out.println("It was nice to meet you. Stay determined");
+                System.exit(0);
             }
         }
 
@@ -197,7 +200,7 @@ public class Client {
                     line = input.readLine();
                 } catch (IOException e) {
                     System.out.println("io exception while trying to read something from input");
-                    e.printStackTrace();
+//                    e.printStackTrace();
                     break;
                 }
             }
@@ -213,24 +216,24 @@ public class Client {
                         continue;
                     if (!isConnected) continue;
                 } catch (NullPointerException e) {
-                    e.printStackTrace();
+//                    e.printStackTrace();
                 }
 
                 doCommand(line, in, out);
             } catch (NullPointerException e) {
                 System.out.println("nullpointer at some point");
-                e.printStackTrace();
+//                e.printStackTrace();
                 continue;
             } catch (SocketException e) {
                 System.out.println("server is down. You can try to connect again by entering 'connect'");
                 isConnected = false;
             } catch (EOFException e) {
-                System.out.println(e);
-                e.printStackTrace();
+//                System.out.println(e);
+//                e.printStackTrace();
                 break;
             } catch (NoSuchElementException e) {
                 System.out.println(":(");
-                break;
+                System.exit(0);
             }
         }
         // close the connection
@@ -250,8 +253,8 @@ public class Client {
         try {
             client.doTheThing();
         } catch (IOException e) {
-            System.out.println("IOex final");
-            e.printStackTrace();
+//            System.out.println("IOex final");
+//            e.printStackTrace();
         }
     }
 

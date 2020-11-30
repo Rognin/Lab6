@@ -49,7 +49,7 @@ public class ClientHandler implements Runnable {
                         command.onCall(cp.getAdditionalInput());
                     } catch (NullPointerException e) {
                         System.out.println("empty command received");
-                        e.printStackTrace();
+//                        e.printStackTrace();
                         continue;
                     }
 //                    answer = "yey";
@@ -67,14 +67,14 @@ public class ClientHandler implements Runnable {
                 } catch (SocketException e) {
                     System.out.println("socketEx, something wrong with the socket");
                 } catch (IOException i) {
-                    System.out.println(i);
-                    i.printStackTrace();
+//                    System.out.println(i);
+//                    i.printStackTrace();
                 } catch (ClassNotFoundException e) {
-                    e.printStackTrace();
+//                    e.printStackTrace();
                 }
             }
         } catch (IOException e) {
-            e.printStackTrace();
+//            e.printStackTrace();
         }
     }
 

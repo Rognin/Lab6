@@ -1,0 +1,17 @@
+/home/rognin/IdeaProjects/Lab6/Client/src/main/java/commands/Show.java
+/home/rognin/IdeaProjects/Lab6/Client/src/main/java/commands/FilterLessThanDescription.java
+/home/rognin/IdeaProjects/Lab6/Client/src/main/java/commands/RemoveById.java
+/home/rognin/IdeaProjects/Lab6/Client/src/main/java/commands/Help.java
+/home/rognin/IdeaProjects/Lab6/Client/src/main/java/commands/Clear.java
+/home/rognin/IdeaProjects/Lab6/Client/src/main/java/commands/CommandWithArgs.java
+/home/rognin/IdeaProjects/Lab6/Client/src/main/java/client/Client.java
+/home/rognin/IdeaProjects/Lab6/Client/src/main/java/commands/Add.java
+/home/rognin/IdeaProjects/Lab6/Client/src/main/java/commands/History.java
+/home/rognin/IdeaProjects/Lab6/Client/src/main/java/commands/Info.java
+/home/rognin/IdeaProjects/Lab6/Client/src/main/java/commands/ExecuteScript.java
+/home/rognin/IdeaProjects/Lab6/Client/src/main/java/commands/Command.java
+/home/rognin/IdeaProjects/Lab6/Client/src/main/java/commands/AddIfMin.java
+/home/rognin/IdeaProjects/Lab6/Client/src/main/java/commands/FilterGreaterThanDescription.java
+/home/rognin/IdeaProjects/Lab6/Client/src/main/java/commands/MaxById.java
+/home/rognin/IdeaProjects/Lab6/Client/src/main/java/commands/RemoveLower.java
+/home/rognin/IdeaProjects/Lab6/Client/src/main/java/commands/Update.java

@@ -199,7 +199,7 @@ public class Server {
                     }
                 }
             } catch (IOException e) {
-                System.out.println("IOex while reading input from console");
+//                System.out.println("IOex while reading input from console");
             }
         };
         Thread t = new Thread(r);
@@ -226,7 +226,7 @@ public class Server {
             }
 
         } catch (IOException e) {
-            e.printStackTrace();
+//            e.printStackTrace();
         }
 
 
